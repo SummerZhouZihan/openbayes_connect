@@ -1,0 +1,35 @@
+# Local state and development notes
+.local/
+/docs/
+.ssh/
+.codex/
+.codex-connect/
+
+# Credentials and proxy configuration
+.env
+.env.*
+!.env.example
+auth.json
+proxy.env
+*.key
+*.pem
+*.p12
+*.pfx
+*.ppk
+*.pub
+id_ed25519*
+id_rsa*
+authorized_keys
+known_hosts*
+
+# Logs, backups, caches and editor files
+*.log
+*.bak
+*.tmp
+*.swp
+__pycache__/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
